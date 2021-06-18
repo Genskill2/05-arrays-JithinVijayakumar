@@ -21,6 +21,6 @@ int sum = 0;
 for(int i=0;i<a;i++)
 sum = sum + m[i];
 
-float avg = sum/a;
+float avg = (float)sum/a;
 return avg;
 }  
