@@ -40,7 +40,7 @@ a=a/i;
 
 
 }
- ret[]=m[];
+
  return(z);
 
 }
