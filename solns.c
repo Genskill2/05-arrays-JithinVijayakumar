@@ -44,3 +44,14 @@ a=a/i;
  return(z);
 
 }
+int max(int d[],int y)
+  {
+  int max=d[0];
+  for(int i=0;i<y;i++)
+  {
+  if(d[i]>max)
+  max=d[i];
+  }
+  
+  return max;
+  }
