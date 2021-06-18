@@ -55,3 +55,14 @@ int max(int d[],int y)
   
   return max;
   }
+int min(int d[],int y)
+  {
+  int min=d[0];
+  for(int i=0;i<y;i++)
+  {
+  if(d[i]<min)
+  min=d[i];
+  }
+  
+  return min;
+  }
