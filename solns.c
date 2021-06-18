@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <assert.h>
 
-/
+
 float average(int [], int);
 
 int main(void) {
