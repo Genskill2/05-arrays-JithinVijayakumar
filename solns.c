@@ -1,4 +1,4 @@
-/* Enter your solutions in this file */
+/* Enter your solutions in thi s file */
 #include <stdio.h>
 #include <assert.h>
 
