@@ -66,3 +66,22 @@ int min(int d[],int y)
   
   return min;
   }
+
+int mode(int z[],int p)
+  {
+  
+  int k[100]={0};
+  for (int i =0;i<p;i++)
+  {
+  k[z[i]]= k[z[i]]+1;
+  }
+ int max=k[0];
+  for(int i=0;i<99;i++)
+  {
+  if(k[i]>max){
+  max=i;
+  
+  }
+  }
+  return max;
+  }
